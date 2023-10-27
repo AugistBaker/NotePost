@@ -1,0 +1,32 @@
+*{
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+.heading,
+.column,
+.text-box{
+    padding: 1%;
+}
+
+html, .col, .column{
+    background-color: #384345;
+    color: aliceblue;
+}
+
+.heading{
+    background-color: #e0b6db;
+}
+
+.col{
+    width: fit-content;
+    border: 2px solid #e0b6db;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.text-box{
+    position: fixed;
+    bottom: 0;
+}
